@@ -46,7 +46,7 @@
 
 <div class="xtr"> 
   <div class="controls">
-    <button class="soundBtn" id="toggleSound">🔈</button>
+    <button class="soundBtn" id="toggleSound">🔇</button>
   </div>
 <div class="bannerVideo">
   <div class="cat-coffee">
@@ -89,10 +89,10 @@ const toggleSound = document.getElementById("toggleSound");
 toggleSound.addEventListener("click", () => {
 if (video.muted) {
 video.muted = false; // Unmute the video
-toggleSound.textContent = "🔊 "; // Update button text
+toggleSound.textContent = "🔊"; // Update button text
 } else {
 video.muted = true; // Mute the video
-toggleSound.textContent = "🔈 "; // Update button text
+toggleSound.textContent = "🔇"; // Update button text
 }
 });
 });
