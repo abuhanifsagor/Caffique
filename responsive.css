@@ -1,0 +1,227 @@
+/* BUG: Small Phones (min-width: 576px) */
+
+/* Small phones with height ≤ 400px */
+@media (max-width: 576px) {
+  body {
+    background-color: #ffa07a;
+  }
+  .bannerContent {
+    h4 {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin: 0px 15px;
+      max-width: 290px;
+    }
+  }
+  .bannerVideo{
+    border-radius: 400px 400px 0px 3px / 148px 150px 0px 2px; ;
+  }
+  .controls{
+    bottom: 30px;
+    left: 10px;
+  }
+
+
+    .about-content{
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            text-align: right;
+            font-size: 1rem;
+            font-weight: 400;
+            max-width: 900px;
+            float: right;
+            margin-top: 50px;
+        }
+    }
+
+
+
+}
+
+/* Small phones with height ≤ 400px */
+@media (max-height: 400px) {
+  body {
+    background-color: #ffa07a; /* Light Salmon */
+  }
+  .banner {
+    height: 100vh;
+    height: 100dvh;
+  }
+  .xtr {
+    height: 100vh;
+    height: 100dvh;
+  }
+  .bannerContent {
+    h4 {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin: 0px 15px;
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+  }
+  .bannerVideo {
+    height: 80px;
+  }
+  .controls {
+    bottom: 0;
+    left: 10px;
+  }
+  .cat-coffee{
+    max-width: 100px;
+    height: auto;
+  }
+  .about{
+    padding-top: 70px;
+    }
+    .about-content{
+        h2{
+            font-size: 1.4rem;
+        }
+        p{
+            font-size: 1rem;
+            max-width: 500px;
+        }
+    }
+
+
+
+}
+
+/* Small phones with height between 401px and 600px */
+@media (min-width: 576px) and (min-height: 401px) and (max-height: 600px) {
+  body {
+    background-color: #4682b4; /* Steel Blue */
+  }
+}
+
+/* Small phones with height ≥ 601px */
+@media (min-width: 576px) and (min-height: 601px) {
+  body {
+    background-color: #8fbc8f; /* Dark Sea Green */
+  }
+}
+
+/* BUG: Tablets (min-width: 768px) */
+
+/* Tablets with height ≤ 400px */
+@media (min-width: 768px) and (max-height: 400px) {
+  body {
+    background-color: #ffa07a; /* Light Salmon */
+  }
+}
+
+/* Tablets with height between 401px and 600px */
+@media (min-width: 768px) and (min-height: 401px) and (max-height: 600px) {
+  body {
+    background-color: #4682b4; /* Steel Blue */
+  }
+  .about-content{
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        text-align: right;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 900px;
+        float: right;
+        margin-top: 50px;
+    }
+  }
+}
+
+/* Tablets with height ≥ 601px */
+@media (min-width: 768px) and (min-height: 601px) {
+  body {
+    background-color: #8fbc8f; /* Dark Sea Green */
+  }
+}
+
+/*BUG: Laptops (min-width: 992px) */
+
+/* Laptops with height ≤ 400px */
+@media (min-width: 992px) and (max-height: 400px) {
+  body {
+    background-color: #ffa07a; /* Light Salmon */
+  }
+}
+
+/* Laptops with height between 401px and 600px */
+@media (min-width: 992px) and (min-height: 401px) and (max-height: 600px) {
+  body {
+    background-color: #4682b4; /* Steel Blue */
+  }
+}
+
+/* Laptops with height ≥ 601px */
+@media (min-width: 992px) and (min-height: 601px) {
+  body {
+    background-color: #8fbc8f; /* Dark Sea Green */
+}
+
+  .bannerContent {
+    h4 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 1rem;
+      margin: 0px 15px;
+      max-width: 500px;    }
+  }
+  .bannerVideo {
+    height: 250px;
+  }
+
+  .controls {
+    bottom: 0;
+    left: 10px;
+  }
+  
+  .xtr{
+    height: 90vh;
+    height: 90dvh;
+  }
+}
+
+
+
+/*BUG: Large Desktops (min-width: 1200px) */
+
+/* Large desktops with height ≤ 400px */
+@media (min-width: 1200px) and (max-height: 400px) {
+  body {
+    background-color: #ffa07a; /* Light Salmon */
+  }
+}
+
+/* Large desktops with height between 401px and 600px */
+@media (min-width: 1200px) and (min-height: 401px) and (max-height: 600px) {
+  body {
+    background-color: #4682b4; /* Steel Blue */
+  }
+}
+
+/* Large desktops with height ≥ 601px */
+@media (min-width: 1200px) and (min-height: 601px) {
+  body {
+    background-color: #8fbc8f; /* Dark Sea Green */
+  }
+  
+
+}
