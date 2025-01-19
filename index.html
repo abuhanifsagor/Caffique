@@ -272,6 +272,14 @@
             }
           });
         });
+        window.addEventListener('scroll', () => {
+  const scrollValue = window.scrollY; // Amount scrolled
+  const scaleValue = 1 + scrollValue / 3500; // Adjust scaling speed
+  const video = document.querySelector('.video-bg');
+
+  video.style.transform = `scale(${scaleValue})`;
+
+});
         // Wait for all resources to load
         // window.addEventListener("load", function () {
         //   const preloader = document.getElementById("preloader");
