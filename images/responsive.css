@@ -44,14 +44,16 @@
     .topbannerBG{
       height: 300px;
     }
-    
+    .item{
+      width: 90%;
+    }
 
 }
 
 /* Small phones with height ≤ 400px */
 @media (max-height: 400px) {
   body {
-    background-color: #ffa07a; /* Light Salmon */
+    background-color: #ffa07a; 
   }
   .banner {
     height: 100vh;
@@ -109,14 +111,14 @@
 /* Small phones with height between 401px and 600px */
 @media (min-width: 576px) and (min-height: 401px) and (max-height: 600px) {
   body {
-    background-color: #4682b4; /* Steel Blue */
+    background-color: #4682b4; 
   }
 }
 
 /* Small phones with height ≥ 601px */
 @media (min-width: 576px) and (min-height: 601px) {
   body {
-    background-color: #8fbc8f; /* Dark Sea Green */
+    background-color: #8fbc8f; /
   }
 }
 
@@ -125,14 +127,14 @@
 /* Tablets with height ≤ 400px */
 @media (min-width: 768px) and (max-height: 400px) {
   body {
-    background-color: #ffa07a; /* Light Salmon */
+    background-color: #ffa07a; 
   }
 }
 
 /* Tablets with height between 401px and 600px */
 @media (min-width: 768px) and (min-height: 401px) and (max-height: 600px) {
   body {
-    background-color: #4682b4; /* Steel Blue */
+    background-color: #4682b4; 
   }
   .about-content{
     h2{
@@ -152,7 +154,7 @@
 /* Tablets with height ≥ 601px */
 @media (min-width: 768px) and (min-height: 601px) {
   body {
-    background-color: #8fbc8f; /* Dark Sea Green */
+    background-color: #8fbc8f; 
   }
 }
 
@@ -161,21 +163,21 @@
 /* Laptops with height ≤ 400px */
 @media (min-width: 992px) and (max-height: 400px) {
   body {
-    background-color: #ffa07a; /* Light Salmon */
+    background-color: #ffa07a; 
   }
 }
 
 /* Laptops with height between 401px and 600px */
 @media (min-width: 992px) and (min-height: 401px) and (max-height: 600px) {
   body {
-    background-color: #4682b4; /* Steel Blue */
+    background-color: #4682b4; 
   }
 }
 
 /* Laptops with height ≥ 601px */
 @media (min-width: 992px) and (min-height: 601px) {
   body {
-    background-color: #8fbc8f; /* Dark Sea Green */
+    background-color: #8fbc8f; 
 }
 
   .bannerContent {
@@ -212,21 +214,21 @@
 /* Large desktops with height ≤ 400px */
 @media (min-width: 1200px) and (max-height: 400px) {
   body {
-    background-color: #ffa07a; /* Light Salmon */
+    background-color: #ffa07a; 
   }
 }
 
 /* Large desktops with height between 401px and 600px */
 @media (min-width: 1200px) and (min-height: 401px) and (max-height: 600px) {
   body {
-    background-color: #4682b4; /* Steel Blue */
+    background-color: #4682b4; /
   }
 }
 
 /* Large desktops with height ≥ 601px */
 @media (min-width: 1200px) and (min-height: 601px) {
   body {
-    background-color: #8fbc8f; /* Dark Sea Green */
+    background-color: #8fbc8f; 
   }
   
 
