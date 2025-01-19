@@ -41,13 +41,7 @@ section{
     max-width: 1440px;
     margin: 0 auto;
 }
-.mybtn{
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-}
+
 p{
     color: var(--p-color2);
 }
@@ -287,6 +281,7 @@ main{
   padding: 0.5em 1.2em;
   background: transparent;
   border: 2px solid var(--hover-color);
+  opacity: 0.7;
   border-radius: 30px;
   color: var(--hover-color);
   cursor: pointer;
@@ -298,6 +293,7 @@ main{
 .tags ul li.active {
   background: var(--hover-color2);
   color: var(--white-color);
+  opacity: 1;
 }
 
 /* INFO:Coffee Gallery Section */
@@ -318,7 +314,8 @@ main{
 .Coffee-gellery  .item:hover{
   filter: brightness(.9);
   img{
-    transform: scale(1.1);
+     transform: scale(1.1) ;
+     
   }
 }
 .item.hide {
@@ -440,5 +437,143 @@ transform: scale(1);
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+
+/* INFO:we Section */
+.we-contentbox2,
+.we-contentbox1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.weImage2, .weImage1 {
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+}
+.weContent2{
+  text-align: right;
+  align-items: flex-end;
+}
+.weContent2, .weContent1 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+  justify-content: center;
+  padding: 1rem;
+  h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .4;
+    color: var(--black-color);
+  }
+  h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black-color);
+  }
+  p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--black-color);
+    opacity: 0.7;
+  }
+  button{
+    background: var(--hover-color);
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 150px;
+    &:hover{
+      background: var(--hover-color2);
+    }
+  }
+
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  height: 45vh;
+  height: 45dvh;
+  border-radius: 15px;
+
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, .1),
+  -10px -10px 10px rgb(255, 255, 255);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swipers{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination-bullet-active {
+  background: var(--hover-color2) ;
+}
+.sliderBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliderImg{
+  width: 40%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    border-radius: 7px;
+  }
+}
+.sliderContent{
+  width: 50%;
+  padding-right: 20px;
+  text-align: center;
+  line-height: 1.8rem;
+  span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--black-color);
+    font-family: dancing script;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 0 0;
   }
 }
