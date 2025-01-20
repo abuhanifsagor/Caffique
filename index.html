@@ -403,9 +403,9 @@
         </section>
       </section>
 
-      <!-- <div id="preloader">
+      <div id="preloader">
         <img src="preload.gif" alt="">
-      </div> -->
+      </div>
 
       <div class="catbox">
         <img src="images/cat-gray.gif" alt="">
@@ -413,19 +413,19 @@
       
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script>
-//         window.onload = () => {
-//     const minPreloadTime = 2500; // Minimum time in milliseconds
-//     const startTime = Date.now(); // Record when the preloader starts
+        window.onload = () => {
+    const minPreloadTime = 2500; // Minimum time in milliseconds
+    const startTime = Date.now(); // Record when the preloader starts
 
-//     // Calculate remaining time after the page fully loads
-//     const elapsedTime = Date.now() - startTime;
-//     const remainingTime = Math.max(0, minPreloadTime - elapsedTime);
+    // Calculate remaining time after the page fully loads
+    const elapsedTime = Date.now() - startTime;
+    const remainingTime = Math.max(0, minPreloadTime - elapsedTime);
 
-//     // Delay hiding the preloader until both conditions are met
-//     setTimeout(() => {
-//         document.getElementById('preloader').style.display = 'none';
-//     }, remainingTime);
-// };
+    // Delay hiding the preloader until both conditions are met
+    setTimeout(() => {
+        document.getElementById('preloader').style.display = 'none';
+    }, remainingTime);
+};
 
 
 
