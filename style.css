@@ -744,8 +744,3 @@ ul li{
       transform: translateY(-20px);
   }
 }
-
-/* Hide content initially */
-#content {
-  display: none;
-}
