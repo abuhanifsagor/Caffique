@@ -578,12 +578,12 @@ transform: scale(1);
   }
 }
 .bottmbannervideo{
-  width: 100%;
-  height: 100%;
+  max-width: 1440px;
   border-radius: 1.5rem;
   position: relative;
   padding-top: 40px;
   background: #141414;
+  margin: auto;
   
 }
 .joinus{
@@ -623,9 +623,9 @@ transform: scale(1);
   }
 }
 #bottomvideo{
-  width: 100%;
   height: 35vh;
   height: 35dvh;
+  display: flex;
   border-radius: 1.5rem;
   filter: brightness(0.5);
 }
